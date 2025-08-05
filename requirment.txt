@@ -1,0 +1,67 @@
+# === FastAPI App Core ===
+fastapi==0.115.14
+uvicorn==0.35.0
+starlette==0.46.2
+orjson==3.10.18
+python-dotenv==1.1.1
+
+# === Pydantic and Typing ===
+pydantic==2.11.7
+pydantic_core==2.33.2
+annotated-types==0.7.0
+typing_extensions==4.14.0
+typing-inspection==0.4.1
+
+# === AI & LLM Integrations ===
+openai==1.93.0
+langchain-core==0.3.67
+langchain-openai==0.3.27
+langgraph==0.5.0
+langgraph-sdk==0.1.72
+langgraph-checkpoint==2.1.0
+langgraph-checkpoint-sqlite==2.0.10
+langgraph-prebuilt==0.5.2
+langsmith==0.4.4
+
+# === Azure Speech and Audio Tools ===
+azure-cognitiveservices-speech==1.44.0
+sounddevice==0.5.2
+pydub==0.25.1
+elevenlabs==2.5.0
+
+# === Data Handling ===
+numpy==1.26.2
+pandas==2.3.0
+sqlite-vec==0.1.6
+
+# === Finite-State Machine ===
+transitions==0.9.2
+
+# === HTTP & Requests ===
+httpx==0.28.1
+httpcore==1.0.9
+requests==2.32.4
+urllib3==2.5.0
+idna==3.10
+certifi==2025.6.15
+
+# === Dev Tools and Utilities ===
+tqdm==4.67.1
+regex==2024.11.6
+watchdog==6.0.0
+click==8.2.1
+colorama==0.4.6
+six==1.17.0
+
+# === Optional Utils ===
+jsonpatch==1.33
+jsonpointer==3.0.0
+distro==1.9.0
+cffi==1.17.1
+pycparser==2.22
+aiosqlite==0.21.0
+tzdata==2025.2
+PyYAML==6.0.2
+
+scipy
+resemblyzer
